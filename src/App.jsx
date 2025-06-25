@@ -18,6 +18,7 @@ class App extends Component {
     }
     else {
       this.setState((prevState) => ({ tails: prevState.tails + 1 }))
+      this.setState((prevState) => ({ total: prevState.total + 1 }))
     }
   }
   render() {
